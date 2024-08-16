@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/965/883/624/manga-one-piece-wallpaper-preview.jpg');
+    /* Replace with your desired One Piece background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Treasure Map Deadhand', sans-serif;
+}
+
+.clock-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+h1
+{
+    color: #FFD700;
+    font-size: 78px;
+    font-family: 'Treasure Map Deadhand', sans-serif;
+}
+.clock {
+    color: #FFD700;
+    font-size: 100px;
+    letter-spacing: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
